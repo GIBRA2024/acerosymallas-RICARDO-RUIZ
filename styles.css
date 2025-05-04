@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+    height: 860px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    width: 400px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.social-buttons {
+    margin-top: 40px;
+}
+
+.boton {
+    display: flex;
+    background-color: #f6c92d;
+    border-radius: 30px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+    font-size: 25px;
+    align-items: center;
+    justify-content: left;
+    height: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.boton span {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.boton img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 30px;
+    height: auto;
+}
+
+footer {
+    margin: 70px 0;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    clear: both;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #f6c92d;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
